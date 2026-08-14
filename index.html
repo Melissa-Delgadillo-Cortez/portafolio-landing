@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melissa — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">melissa<span>.dev</span></div>
+    <ul>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Ingeniería Informática · Automatización & Web</span>
+    <h1>Convierto procesos manuales en <em>software que funciona solo</em>.</h1>
+    <p>Estudiante de Ingeniería Informática. Construyo aplicaciones web y automatizaciones que eliminan tareas repetitivas — desde scripts que ahorran horas de trabajo hasta apps que conectan datos en tiempo real.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+      <a class="btn btn-secondary" href="#contacto">Contactar</a>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipe-row">
+        <div class="node active"></div>
+        <div class="pipe-label">input manual</div>
+        <div class="pipe-line"></div>
+        <div class="node active"></div>
+      </div>
+      <div class="pipe-row">
+        <div class="node active"></div>
+        <div class="pipe-label">validación</div>
+        <div class="pipe-line"></div>
+        <div class="node active"></div>
+      </div>
+      <div class="pipe-row">
+        <div class="node active"></div>
+        <div class="pipe-label">resultado automático</div>
+        <div class="pipe-line"></div>
+        <div class="node active"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="stack" class="reveal">
+  <div class="wrap">
+    <h2><span>01</span>Stack</h2>
+    <div class="stack-grid">
+      <span class="pill">React</span>
+      <span class="pill">JavaScript</span>
+      <span class="pill">Docker</span>
+      <span class="pill">PostgreSQL</span>
+      <span class="pill">SQL Server</span>
+      <span class="pill">MySQL</span>
+      <span class="pill">Google Apps Script</span>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="reveal">
+  <div class="wrap">
+    <h2><span>02</span>Proyectos</h2>
+
+    <div class="project">
+      <div class="project-top">
+        <h3>Automatización de Flujo de Solicitudes</h3>
+        <span class="project-status status-live">En uso real</span>
+      </div>
+      <p>Script en Google Apps Script que elimina el registro manual de tiempos y estados en la gestión de solicitudes de un equipo, calculando SLA automáticamente y bloqueando ediciones críticas por error.</p>
+      <div class="tags"><span>#google-apps-script</span><span>#automation</span><span>#javascript</span></div>
+      <a class="link" href="https://github.com/Melissa-Delgadillo-Cortez/automatizacion-sla-solicitudes" target="_blank">Ver repositorio →</a>
+    </div>
+
+    <div class="project">
+      <div class="project-top">
+        <h3>App de Validación de Pólizas y Asistencias</h3>
+        <span class="project-status status-progress">En progreso</span>
+      </div>
+      <p>Aplicación web para buscar asegurados por número de carnet, validar vigencia de pólizas y registrar solicitudes de asistencia en tiempo real, conectada a un Excel en Microsoft SharePoint.</p>
+      <div class="tags"><span>#react</span><span>#sql</span><span>#microsoft-graph</span></div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto" class="reveal">
+  <div class="wrap">
+    <h2><span>03</span>Contacto</h2>
+    <div class="contact-box">
+      <p>¿Buscas a alguien que resuelva procesos manuales con código? Escríbeme.</p>
+      <a class="email" href="mailto:melissa.del.cor@gmail.com">melissa.del.cor@gmail.com</a>
+	<br>
+      <a class="whatsapp" href="https://wa.me/59168752493?text=Hola%20Melissa,%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">+591 68752493</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Hecho con HTML, CSS y JavaScript — sin frameworks.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
